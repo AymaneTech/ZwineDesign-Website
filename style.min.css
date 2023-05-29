@@ -1135,7 +1135,7 @@ pre {
   padding: 80px 0;
 }
 .heading-banner-area {
-  background: rgba(0, 0, 0, 0) url(img/bg/1.jpg) no-repeat scroll center
+  background: rgba(0, 0, 0, 0) url(img/product/historique.jpg) no-repeat scroll center
     center/cover;
 }
 .heading-banner-title h2 {
@@ -2162,3 +2162,21 @@ input.cart-plus-minus-box {
   line-height: 14px;
   padding: 30px 0;
 }
+
+
+/* my code */
+.about-us p{
+  font-size: 18px;
+  line-height: 35px;
+}
+.about-us h5 , h3{
+  font-size: 25px;
+}
+.about-us .script{
+  font-size: 18px;
+  line-height: 35px;
+}
+.historique-photo img{
+  height: 600px;
+}
+
