@@ -28,7 +28,7 @@
 .nivoSlider {
 	position:relative;
 	width:100%;
-	height:54rem;
+	/* height:54rem; */
 	overflow: hidden;
 }
 .nivoSlider img {
