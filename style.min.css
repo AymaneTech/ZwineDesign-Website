@@ -2179,4 +2179,37 @@ input.cart-plus-minus-box {
 .historique-photo img{
   height: 600px;
 }
+.product-img .product-card{
+  height: 350px;
+  
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
 
+.search-container .search-input::after {
+  width: 0;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: width 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.search-container .search-input.active {
+  width: 300px;
+  margin-left: 10px;
+  overflow: visible;
+}
+
+.search-container .search-icon {
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+}
+.color-a{
+  color: #000;
+}
