@@ -2180,7 +2180,7 @@ input.cart-plus-minus-box {
   height: 600px;
 }
 .product-img .product-card{
-  height: 350px;
+  height: 100%;
   
 }
 .search-container {

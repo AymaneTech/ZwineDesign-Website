@@ -1,7 +1,7 @@
 @media only screen and (min-width : 1200px) {
   .container{
     --bs-gutter-x: 15px;
-    max-width: 1200px;
+    max-width: 112rem;
   }
   .container-fluid{
     --bs-gutter-x: 15px;
