@@ -221,7 +221,7 @@ input[type="text"], input[type="password"] {
   margin-bottom: 15px;
   padding: 0 20px;
   transition: all 0.5s ease 0s;
-  width: 100%;
+  width: 90%;
   outline: none;
 }
 input::-webkit-input-placeholder {
