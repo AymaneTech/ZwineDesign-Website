@@ -123,7 +123,8 @@ pre {
   padding: 38px 0;
 }
 .cart-icon {
-  padding: 50px 0;
+  padding: 50px;
+  margin-right: 10px;
 }
 .cart-icon,
 .logo {
@@ -2207,25 +2208,12 @@ input.cart-plus-minus-box {
 .color-a{
   color: #000;
 }
-<<<<<<< HEAD
-.slider-height{
-  height: 400px;
-  background-repeat: no-repeat;
-  background-size: cover;
+.search-bar input{
+  right: 100px;
+  width: 350px;
+  height: 50px;
+  padding: 0 0 0 25px;
+  margin: 0;
+  font-size: 18px;
+  color: #000;
 }
-.p-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 60px;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background: #f5f5f5;
-  transition: width 0.3s ease-in-out;
-  
-}
-=======
->>>>>>> 44ab0faa2116ec9c19c3638e38d7330759f54327
