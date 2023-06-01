@@ -2180,7 +2180,7 @@ input.cart-plus-minus-box {
   height: 600px;
 }
 .product-img .product-card{
-  height: 350px;
+  height: 100%;
   
 }
 .search-container {
@@ -2207,6 +2207,7 @@ input.cart-plus-minus-box {
 .color-a{
   color: #000;
 }
+<<<<<<< HEAD
 .slider-height{
   height: 400px;
   background-repeat: no-repeat;
@@ -2226,3 +2227,5 @@ input.cart-plus-minus-box {
   transition: width 0.3s ease-in-out;
   
 }
+=======
+>>>>>>> 44ab0faa2116ec9c19c3638e38d7330759f54327
