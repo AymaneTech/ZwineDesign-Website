@@ -123,7 +123,8 @@ pre {
   padding: 38px 0;
 }
 .cart-icon {
-  padding: 50px 0;
+  padding: 50px;
+  margin-right: 10px;
 }
 .cart-icon,
 .logo {
@@ -2188,15 +2189,9 @@ input.cart-plus-minus-box {
   align-items: center;
 }
 
-.search-container .search-input::after {
-  width: 0;
-  height: 40px;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  transition: width 0.3s ease-in-out;
-  overflow: hidden;
+.search-container .search-input{
+  background: #555;
+  
 }
 
 .search-container .search-input.active {
@@ -2211,5 +2206,14 @@ input.cart-plus-minus-box {
   cursor: pointer;
 }
 .color-a{
+  color: #000;
+}
+.search-bar input{
+  right: 100px;
+  width: 350px;
+  height: 50px;
+  padding: 0 0 0 25px;
+  margin: 0;
+  font-size: 18px;
   color: #000;
 }
