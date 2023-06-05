@@ -881,4 +881,8 @@
 
 
 }
- 
+ @media (min-width : 266px)and (max-width: 388px){
+  .mini-cart ul {
+    margin: -29px 4px -137px -47px;
+ }
+}

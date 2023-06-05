@@ -56,7 +56,7 @@ h6 {
 }
 a {
   text-decoration: none;
-  color: #434343;
+  color: #434343 !important;
 }
 ::before,
 a {
@@ -651,7 +651,7 @@ pre {
   height: 40px;
   line-height: 40px;
   position: relative;
-  width: 25%;
+  width: 100%;
 }
 .product-action a::before {
   background: #999 none repeat scroll 0 0;
@@ -2201,7 +2201,16 @@ input.cart-plus-minus-box {
 }
 .search-container .search-input{
   background: #555;
-  
+}
+.search-container .search-input::after {
+  width: 0;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: width 0.3s ease-in-out;
+  overflow: hidden;
 }
 
 .search-container .search-input.active {
