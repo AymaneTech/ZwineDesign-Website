@@ -2189,9 +2189,21 @@ input.cart-plus-minus-box {
   align-items: center;
 }
 
+<<<<<<< HEAD
 .search-container .search-input{
   background: #555;
   
+=======
+.search-container .search-input::after {
+  width: 0;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: width 0.3s ease-in-out;
+  overflow: hidden;
+>>>>>>> main
 }
 
 .search-container .search-input.active {
@@ -2208,6 +2220,7 @@ input.cart-plus-minus-box {
 .color-a{
   color: #000;
 }
+<<<<<<< HEAD
 .search-bar input{
   right: 100px;
   width: 350px;
@@ -2217,3 +2230,5 @@ input.cart-plus-minus-box {
   font-size: 18px;
   color: #000;
 }
+=======
+>>>>>>> main
