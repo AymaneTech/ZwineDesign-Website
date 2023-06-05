@@ -1,11 +1,11 @@
 <!doctype html>
 <html class="no-js" lang="en">
 	
-<!-- Mirrored from template.hasthemes.com/Zwine DESIGN-v1/Zwine DESIGN/shop.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 May 2023 08:46:31 GMT -->
+<!-- Mirrored from template.hasthemes.com/Zwine DESIGN-v1/Zwine DESIGN/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 May 2023 08:46:40 GMT -->
 <head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>Shop || Zwine DESIGN</title>
+		<title>Login / Registration || Zwine DESIGN</title>
 		<meta name="description" content="Zwine DESIGN – Furniture Store eCommerce HTML Template is a clean and elegant design – suitable for selling flower, cookery, accessories, fashion, high fashion, accessories, digital, kids, watches, jewelries, shoes, kids, furniture, sports….. It has a fully responsive width adjusts automatically to any screen size or resolution.">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -42,11 +42,13 @@
         <link rel="stylesheet" href="css/shortcode.css">
 		<!-- responsive css -->
 		<link rel="stylesheet" href="css/responsive.css">
+
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 		<!-- modernizr css -->
 		<script src="js/vendor/modernizr-3.11.2.min.js"></script>
 	</head>
 	<body>	
-		
 		<!-- WRAPPER START -->
 		<div class="wrapper bg-dark-white">
 
@@ -57,82 +59,76 @@
 						<div class="row">
 							<div class="col-md-4 offset-md-4 col-7">
 								<div class="logo text-md-center">
-									<a href="index.html"><img class="logo-img" style="width: 200px" src="img/logo/logo-nobg.png" alt="" /></a>
-								</div>
+								<a href="index.html"><img style="width: 200px" src="img/logo/new-logo.png"
+										alt="" /></a>
+							</div>
 							</div>
 							<div class="col-md-4 col-5">
 								<div class="mini-cart text-end">
 									<ul>
-										<li>
-											<a class="cart-icon color-a" href="#">
-												<i class="zmdi zmdi-shopping-cart"></i>
-												<span>3</span>
-											</a>
-											<div class="mini-cart-brief text-left">
-												<div class="cart-items">
-													<p class="mb-0">
-														You have <span>03 items</span> in your shopping bag
-													</p>
-												</div>
-												<div class="all-cart-product clearfix">
-													<div class="single-cart clearfix">
-														<div class="cart-photo">
-															<a href="#"><img src="img/cart/1.jpg" alt /></a>
-														</div>
-														<div class="cart-info">
-															<h5><a href="#">tapis marocaine</a></h5>
-															<p class="mb-0">Price : $ 100.00</p>
-															<p class="mb-0">Qty : 02</p>
-															<span class="cart-delete"><a href="#"><i class="zmdi zmdi-close"></i></a></span>
-														</div>
+									<li>
+										<a class="cart-icon" href="#">
+											<i class="zmdi zmdi-shopping-cart"></i>
+											<span>3</span>
+										</a>
+										<div class="mini-cart-brief text-left">
+											<div class="cart-items">
+												<p class="mb-0">You have <span>03 items</span> in your shopping bag</p>
+											</div>
+											<div class="all-cart-product clearfix">
+												<div class="single-cart clearfix">
+													<div class="cart-photo">
+														<a href="#"><img src="img/cart/1.jpg" alt="" /></a>
 													</div>
-													<div class="single-cart clearfix">
-														<div class="cart-photo">
-															<a href="#"><img src="img/cart/2.jpg" alt /></a>
-														</div>
-														<div class="cart-info">
-															<h5><a href="#">tapis marocaine</a></h5>
-															<p class="mb-0">Price : $ 300.00</p>
-															<p class="mb-0">Qty : 01</p>
-															<span class="cart-delete"><a href="#"><i class="zmdi zmdi-close"></i></a></span>
-														</div>
+													<div class="cart-info">
+														<h5><a href="#">tapis marocaine</a></h5>
+														<p class="mb-0">Price : $ 100.00</p>
+														<p class="mb-0">Qty : 02 </p>
+														<span class="cart-delete"><a href="#"><i
+																	class="zmdi zmdi-close"></i></a></span>
 													</div>
 												</div>
-												<div class="cart-totals">
-													<h5 class="mb-0">
-														Total <span class="floatright">$500.00</span>
-													</h5>
-												</div>
-												<div class="cart-bottom clearfix">
-													<a
-														href="cart.html"
-														class="button-one floatleft text-uppercase"
-														data-text="View cart">View cart</a>
-													<a
-														href="checkout.html"
-														class="button-one floatright text-uppercase"
-														data-text="Check out">Check out</a>
+												<div class="single-cart clearfix">
+													<div class="cart-photo">
+														<a href="#"><img src="img/cart/2.jpg" alt="" /></a>
+													</div>
+													<div class="cart-info">
+														<h5><a href="#">tapis marocaine</a></h5>
+														<p class="mb-0">Price : $ 300.00</p>
+														<p class="mb-0">Qty : 01 </p>
+														<span class="cart-delete"><a href="#"><i
+																	class="zmdi zmdi-close"></i></a></span>
+													</div>
 												</div>
 											</div>
-										</li>
+											<div class="cart-totals">
+												<h5 class="mb-0">Total <span class="floatright">$500.00</span></h5>
+											</div>
+											<div class="cart-bottom  clearfix">
+												<a href="cart.html" class="button-one floatleft text-uppercase"
+													data-text="View cart">View cart</a>
+												<a href="checkout.html" class="button-one floatright text-uppercase"
+													data-text="Check out">Check out</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a class="cart-icon" href="login.html">
+											<i class='bx bx-user'></i>
 
-										<li>
-											<a class="cart-icon color-a" href="#">
-												<i class="bx bxs-user"></i>
-											</a>
-										</li>
-										<li>
-											<div class="container">
-												<div class="p-container color-a">
-													<i class="fas fa-search search-icon"></i>
-													<input
-														type="text"
-														class="search-input"
-														placeholder="Search..." />
-												</div>
+
+									</li>
+									<li>
+										<a class="cart-icon" href="#">
+											<i class='bx bx-search'></i>
+										</a>
+										<div class="mini-cart-brief">
+											<div class="search-bar">
+												<input class="input-bar" type="text" placeholder="search...">
 											</div>
-										</li>
-									</ul>
+										</div>
+									</li>
+								</ul>
 								</div>
 							</div>
 						</div>
@@ -206,12 +202,12 @@
 						<div class="col-md-12">
 							<div class="heading-banner">
 								<div class="heading-banner-title">
-									<h2>L'histoire de la tapisserie marocaine</h2>
+									<h2>Registration</h2>
 								</div>
 								<div class="breadcumbs pb-15">
 									<ul>
 										<li><a href="index.html">Home</a></li>
-										<li> <a href="historique.html">L'historiqe de tapis</a></li>
+										<li>Registration</li>
 									</ul>
 								</div>
 							</div>
@@ -220,59 +216,41 @@
 				</div>
 			</div>
 			<!-- HEADING-BANNER END -->
+			<!-- SHOPPING-CART-AREA START -->
+			<div class="login-area pt-80 pb-80">
+				<div class="container " style="margin-left: 500px;">
+					<form action="#"  style="width: 1000px;">	
+							<!-- <div class="col-lg-6 " >
+								<div class="customer-login ">
+									<h4 class="title-1 title-border text-uppercase mb-30">Registered customers</h4>
+									<p class="text-gray">If you have an account with us, Please login!</p>
+									<input type="text" placeholder="Email here..." name="email">
+									<input type="password" placeholder="Password">
+									<p><a href="#" class="text-gray">Forget your password?</a></p>
+									<p><a href="register.html" class="text-gray">Create an account</a></p>
 
-			<!-- ABOUT-US-AREA START -->
-			<div class="about-us-area  pt-80 pb-80">
-				<div class="container">	
-					<div class="about-us bg-white">
-						<div class="row">
-							<div class="col-lg-6">
-								<div class="historique-photo">
-									<img src="img/product/histo-2.jpg" alt="" />
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="about-brief bg-dark-white">
-									<h3 class="title-1 title-border text-uppercase mb-30">L'histoire de la tapisserie marocaine : un héritage artistique et culturel</h3>
-									<p>
-										La tapisserie marocaine, également connue sous le nom de "tapis marocain", est un artisanat traditionnel qui a une riche histoire enracinée dans la culture et l'art du Maroc. Cet article vous emmènera à travers un voyage dans le temps, en explorant l'historique de la tapisserie marocaine, depuis ses débuts anciens jusqu'à son importance actuelle en tant qu'expression artistique et symbole culturel.</p> <br>
-										<h5>Des débuts anciens:</h5>   
-										<p>
-										L'histoire de la tapisserie marocaine remonte à plusieurs siècles. Les premières traces de tapis tissés au Maroc remontent à l'époque berbère, où les tribus locales utilisaient des techniques de tissage rudimentaires pour créer des tapis pour une variété d'utilisations. Ces tapis étaient souvent tissés à la main avec des matériaux naturels, tels que la laine provenant des moutons élevés dans les montagnes de l'Atlas.
+									<button type="submit" data-text="login" class="button-one submit-button mt-15">login</button>
+								</div>					
+							</div> -->
+							 <div class="col-lg-6">
+								<div class="customer-login text-left">
+									<h4 class="title-1 title-border text-uppercase mb-30">new customers</h4>
+									<p class="text-gray">If you have an account with us, Please login!</p>
+									<input type="text" placeholder="Your name here..." name="name">
+									<input type="text" placeholder="Email address here..." name="email">
+									<input type="password" placeholder="Password">
+									<input type="password" placeholder="Confirm password">
+									<p class="mb-0">
+										<input type="checkbox" id="newsletter" name="newsletter" checked>
+										<label for="newsletter"><span>Sign up for our newsletter!</span></label>
 									</p>
-								</div>
-							</div>
-						</div>
-						<div class="script">
-						<p class="histo-script">
-							 <h5>Influences culturelles :</h5>
-							Au fil des siècles, la tapisserie marocaine a été influencée par les différentes cultures et civilisations qui ont laissé leur empreinte sur le pays. Les Arabes, les Perses, les Maures et les Ottomans ont tous contribué à façonner l'art de la tapisserie au Maroc. Chacune de ces influences a apporté des motifs, des couleurs et des techniques de tissage distincts, donnant à la tapisserie marocaine une identité unique.
-							<br><br>
-							 <h5>L'essor de l'industrie :</h5>
-							Au 20e siècle, l'industrie de la tapisserie marocaine a connu un essor significatif. Les tapis marocains sont devenus très prisés dans le monde entier, attirant l'attention des collectionneurs d'art et des amateurs de décoration. Les motifs géométriques, les couleurs vives et les techniques de tissage complexes ont fait des tapis marocains un symbole de l'artisanat marocain et un élément essentiel de l'esthétique nord-africaine.
-							<br><br>
-							 <h5>Un héritage artistique :</h5>
-							La tapisserie marocaine est bien plus qu'un simple objet de décoration. Elle est considérée comme une forme d'art à part entière, reflétant l'identité culturelle et l'histoire du Maroc. Les motifs traditionnels racontent des histoires, des légendes et des symboles berbères transmis de génération en génération. Chaque tapis est unique, portant le travail minutieux et la créativité de l'artisan qui l'a confectionné.
-							<br> <br>
-							 <h5>L'importance économique et sociale :</h5>
-							La production de tapis marocains joue un rôle économique et social crucial au Maroc. De nombreuses coopératives de femmes ont été créées dans les régions rurales pour promouvoir l'artisanat et offrir des opportunités de revenus durables. Le tissage de tapis est souvent une entreprise familiale, transmise de mère en fille, renforçant ainsi les liens sociaux et préservant les savoir-faire traditionnels.
-							
-							Le renouveau de l'intérêt mondial :
-							Au cours des dernières</p>
-						</div>
-					</div>
+									<button type="submit" data-text="regiter" class="button-one submit-button mt-15">regiter</button>
+								</div>					
+							</div> 
+					</form>
 				</div>
 			</div>
-			<!-- ABOUT-US-AREA END -->
-			
-
-
-
-
-
-
-
-
+			<!-- SHOPPING-CART-AREA END -->
 			<!-- FOOTER START -->
 			<footer>
 				<!-- Footer-area start -->
@@ -437,5 +415,5 @@
 		<script src="js/main.min.js"></script>
 	</body>
 
-<!-- Mirrored from template.hasthemes.com/Zwine DESIGN-v1/Zwine DESIGN/shop.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 May 2023 08:46:31 GMT -->
+<!-- Mirrored from template.hasthemes.com/Zwine DESIGN-v1/Zwine DESIGN/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 May 2023 08:46:40 GMT -->
 </html>
