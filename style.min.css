@@ -2242,3 +2242,20 @@ input.cart-plus-minus-box {
     font-weight: bold;
     color: #80673f !important;
 }
+.single-reser{
+  background: none;
+  margin: 40px 0  0 34px !important; 
+}
+.product-action .reservarion-btn {
+  border: none !important;
+  width: 150px !important;
+  height: 40px !important;
+  background: #e5e5e5 !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+}
+.reservarion-btn:hover{
+  text-decoration: underline;
+  transition: 0.5s;
+}

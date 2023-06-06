@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 	
-<!-- Mirrored from template.hasthemes.com/Zwine DESIGN-v1/Zwine DESIGN/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 May 2023 08:46:41 GMT -->
+
 <head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -42,6 +42,9 @@
         <link rel="stylesheet" href="css/shortcode.css">
 		<!-- responsive css -->
 		<link rel="stylesheet" href="css/responsive.css">
+
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 		<!-- modernizr css -->
 		<script src="js/vendor/modernizr-3.11.2.min.js"></script>
 	</head>
@@ -49,66 +52,145 @@
 		<!-- WRAPPER START -->
 		<div class="wrapper bg-dark-white">
 
-				<!-- MAIN-MENU START -->
-				<div class="menu-toggle menu-toggle-2 hamburger hamburger--emphatic d-none d-md-block">
-					<div class="hamburger-box">
-						<div class="hamburger-inner"></div>
-					</div>
-				</div>
-				<div class="main-menu  d-none d-md-block">
-					<nav>
-						<ul>
-							<li>
-								<a href="index.html">home</a>								
-							</li>
-							<li>
-								<a href="shop.html">products</a>				
-							</li>
-							
-							<li><a href="#">pages</a>
-								<div class="sub-menu menu-scroll">
-									<ul>
-										<li><a href="login.html">Login / Registration</a></li>
-										<li><a href="my-account.html">My Account </a></li>
-									</ul>
+			<div class="wrapper bg-dark-white">
+
+				<!-- HEADER-AREA START -->
+				<header id="sticky-menu" class="header header-2">
+					<div class="header-area">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-4 offset-md-4 col-7">
+									<div class="logo text-md-center">
+										<a href="index.html" class="logo-settings">Zwin Design</a>
+									</div>
 								</div>
-							</li>
-							<li><a href="about.html">about us</a></li>
-							<li><a href="contact.html">contact</a></li>
-						</ul>
-					</nav>
-				</div>
-				<!-- MAIN-MENU END -->
-			</header>
-			<!-- HEADER-AREA END -->
-			<!-- Mobile-menu start -->
-			<div class="mobile-menu-area">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-xs-12 d-block d-md-none">
-							<div class="mobile-menu">
-								<nav id="dropdown">
-									<ul>
-										<li><a href="index.html">home</a>
-											
-										</li>
-										<li><a href="shop.html">products</a></li>
-										<li><a href="shop.html">accesories</a></li>
-										<li><a href="#">pages</a>
-											<ul>
-												<li><a href="login.html">login / Registration</a></li>
-												<li><a href="my-account.html">My Account</a></li>	
-											</ul>
-										</li>
-										<li><a href="about.html">about us</a></li>
-										<li><a href="contact.html">contact</a></li>
-									</ul>
-								</nav>
+								<div class="col-md-4 col-5">
+									<div class="mini-cart text-end">
+										<ul>
+											<li>
+												<a class="cart-icon" href="#">
+													<i class="zmdi zmdi-shopping-cart"></i>
+													<span>3</span>
+												</a>
+												<div class="mini-cart-brief text-left">
+													<div class="cart-items">
+														<p class="mb-0">You have <span>03 items</span> in your shopping bag</p>
+													</div>
+													<div class="all-cart-product clearfix">
+														<div class="single-cart clearfix">
+															<div class="cart-photo">
+																<a href="#"><img src="img/cart/1.jpg" alt="" /></a>
+															</div>
+															<div class="cart-info">
+																<h5><a href="#">tapis marocaine</a></h5>
+																<p class="mb-0">Price : $ 100.00</p>
+																<p class="mb-0">Qty : 02 </p>
+																<span class="cart-delete"><a href="#"><i
+																			class="zmdi zmdi-close"></i></a></span>
+															</div>
+														</div>
+														<div class="single-cart clearfix">
+															<div class="cart-photo">
+																<a href="#"><img src="img/cart/2.jpg" alt="" /></a>
+															</div>
+															<div class="cart-info">
+																<h5><a href="#">tapis marocaine</a></h5>
+																<p class="mb-0">Price : $ 300.00</p>
+																<p class="mb-0">Qty : 01 </p>
+																<span class="cart-delete"><a href="#"><i
+																			class="zmdi zmdi-close"></i></a></span>
+															</div>
+														</div>
+													</div>
+													<div class="cart-totals">
+														<h5 class="mb-0">Total <span class="floatright">$500.00</span></h5>
+													</div>
+													<div class="cart-bottom  clearfix">
+														<a href="cart.html" class="button-one floatleft text-uppercase"
+															data-text="View cart">View cart</a>
+														<a href="checkout.html" class="button-one floatright text-uppercase"
+															data-text="Check out">Check out</a>
+													</div>
+												</div>
+											</li>
+											<li>
+												<a class="cart-icon" href="login.html">
+													<i class='bx bx-user'></i>
+		
+		
+											</li>
+											<li>
+												<a class="cart-icon" href="#">
+													<i class='bx bx-search'></i>
+												</a>
+												<div class="mini-cart-brief">
+													<div class="search-bar">
+														<input class="input-bar" type="text" placeholder="search...">
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- MAIN-MENU START -->
+					<div class="menu-toggle menu-toggle-2 hamburger hamburger--emphatic d-none d-md-block">
+							<div class="hamburger-box">
+								<div class="hamburger-inner"></div>
+							</div>
+						</div>
+					<div class="main-menu  d-none d-md-block">
+						<nav>
+							<ul>
+								<li>
+									<a href="index.html">home</a>
+								</li>
+								<li>
+									<a href="shop.html">products</a>
+								</li>
+								<li><a href="about.html">about us</a></li>
+								<li><a href="contact.html">contact</a></li>
+								<li>
+									<a href="login.html">Login</a>
+								</li>
+								<li>
+									<a href="register.html">Register</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!-- MAIN-MENU END -->
+				</header>
+				<!-- HEADER-AREA END -->
+				<!-- Mobile-menu start -->
+				<div class="mobile-menu-area">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-12 d-block d-md-none">
+								<div class="mobile-menu">
+									<nav id="dropdown">
+										<ul>
+											<li><a href="index.html">home</a>
+		
+											</li>
+											<li><a href="shop.html">products</a></li>
+											<li>
+												<a href="login.html">login</a>
+											</li>
+											<li>
+												<a href="register.html">register</a>
+											</li>
+											<li><a href="about.html">about us</a></li>
+											<li><a href="contact.html">contact</a></li>
+										</ul>
+									</nav>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
 
 			<!-- HEADING-BANNER START -->
 			<div class="heading-banner-area overlay-bg">
@@ -319,5 +401,5 @@
 		<script src="js/main.min.js"></script>
 	</body>
 
-<!-- Mirrored from template.hasthemes.com/Zwine DESIGN-v1/Zwine DESIGN/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 May 2023 08:46:42 GMT -->
+
 </html>
